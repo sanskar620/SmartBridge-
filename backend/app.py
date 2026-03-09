@@ -62,7 +62,7 @@ def create_app(config_class=Config):
     app.register_blueprint(voice_bp)
 
     # ---- Serve frontend static files ----
-    frontend_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+    frontend_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "public"))
 
     @app.route("/")
     def serve_index():
