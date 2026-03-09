@@ -1,0 +1,47 @@
+{
+  "style": "Scandinavian",
+  "color_theme": {
+    "primary": "#FAFAF5",
+    "secondary": "#D4C5A9",
+    "accent": "#7BA098"
+  },
+  "layout_suggestions": [
+    "Position seating to maximize natural light",
+    "Use a wooden coffee table with organic shape",
+    "Add a cozy floor lamp with warm bulb",
+    "Include open shelving with curated accessories"
+  ],
+  "furniture_placements": [
+    {
+      "product": "Oslo Sofa",
+      "position_hint": "Position seating to maximize natural light",
+      "price": 85000.0
+    },
+    {
+      "product": "Nord Coffee Table",
+      "position_hint": "Use a wooden coffee table with organic shape",
+      "price": 18500.0
+    },
+    {
+      "product": "Stone Credenza",
+      "position_hint": "Add a cozy floor lamp with warm bulb",
+      "price": 72000.0
+    },
+    {
+      "product": "Minimal Wall Shelf",
+      "position_hint": "Include open shelving with curated accessories",
+      "price": 8500.0
+    },
+    {
+      "product": "Warm Desk Lamp",
+      "position_hint": "Place as accent piece",
+      "price": 6200.0
+    }
+  ],
+  "room_analysis_summary": {
+    "area_m2": 1901.0,
+    "brightness": "Bright",
+    "floor_space_pct": 99.38
+  },
+  "design_score": 95
+}
