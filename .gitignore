@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Database (SQLite)
+*.db
+*.sqlite3
+
+# Storage uploads (generated at runtime)
+backend/storage/room_images/*
+backend/storage/generated_designs/*
+backend/storage/product_assets/*
+
+# Keep the folder structure
+!backend/storage/room_images/.gitkeep
+!backend/storage/generated_designs/.gitkeep
+!backend/storage/product_assets/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
